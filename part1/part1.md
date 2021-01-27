@@ -22,4 +22,4 @@ Q11:TypeError: Assignment to constant variable. finalPrice is assign to 0 and th
 
 Q12:Compiler error. TypeError: Assignment to constant variable. finalPrice is assign to 0 and this is constant value and the value can not change. However, "finalPrice = Math.round(discountedPrice * 100)/100;" tried to change the finalPrice value. Therefore, error message show.
 
-Q13
+Q13:student.name
