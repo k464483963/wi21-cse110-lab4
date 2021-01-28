@@ -22,4 +22,36 @@ Q11:TypeError: Assignment to constant variable. finalPrice is assign to 0 and th
 
 Q12:Compiler error. TypeError: Assignment to constant variable. finalPrice is assign to 0 and this is constant value and the value can not change. However, "finalPrice = Math.round(discountedPrice * 100)/100;" tried to change the finalPrice value. Therefore, error message show.
 
-Q13:student.name
+Q13:A: student.name; B:student['Grad Year']; C:student.greeting(); D:student['Favorite Teacher'].name; E:student.courseLoad[0];
+
+Q14:A:Output:32; This is a string type. when 3 is string plus the number 2, it automatic connect string 3 and 2;
+
+B:Output:1; If the string minues the number, it would automatic convert string to number, so 3-2 = 1; 
+
+C:Output:3; number plus null and null become the number.
+
+D:Output:3; null  string concatenate null which become string.
+
+E:Output:4; true convert to 1 as number
+
+F:Output:0; false(0) and null(0) are both convert to number type. 
+
+G:Output:3undefined; convert to string and concatenate together.
+
+H:Output:NaN; 3 as number minus undefined which convert to number type NaN.
+
+Q15:
+A:Output:true; string 2 convert to number 2, 2>1.
+
+B:Output:false; string convert to number, 2<12.
+
+C:Output:true; string convert to number. so 2=2;
+
+D:Output:false; strict equality actually compare are the value is equal without any type convert. so "2" is not equal number 2.
+
+E:Output:false; true is equal 1 not 2.
+
+F:Output:true; Boolean(2) is return true so equal to true.
+
+
+
