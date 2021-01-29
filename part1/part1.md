@@ -57,3 +57,6 @@ Q16: "==="strict equality actually compare are the value is equal without any ty
 
 Q17:Output:How are you?; true convert to number 1, 2 != 1, so 'Hello' not print. "else if(2) is always true. so the How are you? print out.
 
+Q19:The output result is: [ 6, 8, 10 ]; The reason is we have call back function as the paracmeter in the modifyArray function. Every value in the array add 2 and then back to the modifyArray function and every value multiple 2 then return the new array.
+
+
