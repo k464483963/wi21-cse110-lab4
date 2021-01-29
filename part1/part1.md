@@ -59,4 +59,4 @@ Q17:Output:How are you?; true convert to number 1, 2 != 1, so 'Hello' not print.
 
 Q19:The output result is: [ 6, 8, 10 ]; The reason is we have call back function as the paracmeter in the modifyArray function. Every value in the array add 2 and then back to the modifyArray function and every value multiple 2 then return the new array.
 
-
+Q21:Output:1 4 3 2; 1 and 4 is not in the setTimeout function so no delay. 2 have more delay than 3 so 3 print out first.
