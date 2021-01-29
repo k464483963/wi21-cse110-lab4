@@ -53,5 +53,7 @@ E:Output:false; true is equal 1 not 2.
 
 F:Output:true; Boolean(2) is return true so equal to true.
 
+Q16: "==="strict equality actually compare are the value is equal without any type convert. But "==" conpare the value after convert type.
 
+Q17:Output:How are you?; true convert to number 1, 2 != 1, so 'Hello' not print. "else if(2) is always true. so the How are you? print out.
 
