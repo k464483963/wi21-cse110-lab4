@@ -22,5 +22,4 @@ for(const prop in statistics){
     else if(isOdd(`${statistics[prop]}`)){
         console.log(`statistics.${prop}=${statistics[prop]}`);
     }
-    //console.log(`statistics.${prop}=${statistics[prop]}`);
 }
