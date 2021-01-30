@@ -38,3 +38,7 @@ Tue, 26 Jan 2021 22:14:13 GMT
 
 application/json
 
+9. Which method inside the initiating file made the request?
+
+fetchData @ part2.js:2
+onclick @ (index):21
